@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NN_Analysis - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\YOUNGH~1\LOCALS~1\Temp\RSP17C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/NN_Analysis.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Library\Neural Network\NN_Analysis\NN_AnalysisDlg.cpp"
+"D:\Library\Neural Network\NN_Analysis\OScopeThread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\YOUNGH~1\LOCALS~1\Temp\RSP17C.tmp" 
+Creating temporary file "C:\DOCUME~1\YOUNGH~1\LOCALS~1\Temp\RSP17D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"..\Exe\Debug/NN_Analysis.pdb" /debug /machine:I386 /out:"..\Exe\Debug/NN_Analysis.exe" /pdbtype:sept 
+".\Debug\NN_Analysis.obj"
+".\Debug\NN_AnalysisDlg.obj"
+".\Debug\OScopeCtrl.obj"
+".\Debug\OScopeThread.obj"
+".\Debug\StdAfx.obj"
+".\Debug\NN_Analysis.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\YOUNGH~1\LOCALS~1\Temp\RSP17D.tmp"
+<h3>Output Window</h3>
+Compiling...
+NN_AnalysisDlg.cpp
+OScopeThread.cpp
+D:\Library\Neural Network\NN_Analysis\OScopeThread.cpp(83) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Library\Neural Network\NN_Analysis\OScopeThread.cpp(84) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Library\Neural Network\NN_Analysis\OScopeThread.cpp(85) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Library\Neural Network\NN_Analysis\OScopeThread.cpp(86) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NN_Analysis.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

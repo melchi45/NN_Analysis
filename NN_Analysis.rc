@@ -1,0 +1,267 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NN_Analysis.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\NN_Analysis.ico"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About NN_Analysis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "NN_Analysis Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_NN_ANALYSIS_DIALOG DIALOGEX 0, 0, 360, 286
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "NN_Analysis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC_OSCILLOSCOPE,"Static",SS_BLACKFRAME,7,7,
+                    346,134
+    EDITTEXT        IDC_EDIT_PATTERN_FILE,53,173,120,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NETWORK_FILE,228,173,120,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEARNING_RATE,68,203,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MOMENTUM_TERM,68,218,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOLERANCE,254,218,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUM_LAYERS,254,203,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INPUT_NODE,158,203,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HIDDEN_NODE1,70,244,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OUTPUT_NODE,158,218,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DISPLAY_INTERVAL,252,244,40,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Training",IDC_BUTTON_TRAINING,303,197,50,14
+    PUSHBUTTON      "Run",IDC_BUTTON_RUN,303,229,50,14
+    PUSHBUTTON      "OK",IDOK,303,265,50,14
+    LTEXT           "Pattern File :",IDC_STATIC,9,175,40,8
+    GROUPBOX        "Enviroment Traning",IDC_STATIC,7,194,291,85
+    LTEXT           "Network File :",IDC_STATIC,180,176,44,8
+    LTEXT           "Learning Rate :",IDC_STATIC,18,205,50,8
+    LTEXT           "Momentum Term :",IDC_STATIC,10,221,58,8
+    LTEXT           "Tolerance :",IDC_STATIC,216,221,37,8
+    LTEXT           "Input Node :",IDC_STATIC,116,205,40,8
+    LTEXT           "Output Node :",IDC_STATIC,112,221,46,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,111,198,
+                    1,40
+    LTEXT           "Layer Numbers :",IDC_STATIC,200,205,52,8
+    LTEXT           "Display Interval :",IDC_STATIC,198,246,53,8
+    CONTROL         "Pause Training",IDC_CHECK_PAUSE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,198,262,63,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,199,199,
+                    1,40
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,7,238,
+                    289,1
+    EDITTEXT        IDC_EDIT_HIDDEN_NODE2,108,244,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HIDDEN_NODE3,146,244,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HIDDEN_NODE4,70,259,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HIDDEN_NODE5,108,259,35,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HIDDEN_NODE6,146,259,35,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT | SS_SUNKEN,189,238,
+                    1,40
+    CTEXT           "Hidden Layers\nNumber\nH1,  H2,  H3\nH4,  H5,  H6",
+                    IDC_STATIC,14,242,47,33
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,303,213,50,14
+    EDITTEXT        IDC_EDIT_ITERATION,42,153,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ERROR,157,153,54,14,ES_AUTOHSCROLL
+    LTEXT           "Iteration :",IDC_STATIC,9,155,30,8
+    LTEXT           "Squred Error Sum :",IDC_STATIC,96,155,60,8
+    GROUPBOX        "Static",IDC_STATIC,7,141,346,50
+    EDITTEXT        IDC_EDIT_BETA,235,153,29,14,ES_AUTOHSCROLL
+    LTEXT           "Beta :",IDC_STATIC,213,155,20,8
+    EDITTEXT        IDC_EDIT_PATTERN_NUM,314,153,39,14,ES_AUTOHSCROLL
+    LTEXT           "Pattern Num",IDC_STATIC,267,155,40,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "NN_Analysis MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "NN_Analysis\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NN_Analysis.EXE\0"
+            VALUE "ProductName", "NN_Analysis Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_NN_ANALYSIS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About NN_Analysis..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\NN_Analysis.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

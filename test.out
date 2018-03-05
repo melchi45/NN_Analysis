@@ -1,0 +1,118 @@
+Node ID : 14     Node Name: Input Node
+Value Set : 0 
+Error Set: 0 
+Out Link ID : 35 Link Name : EPOCH_BP_LINK Dest Node : 18 Value Set : 0.127171 0 0 
+Out Link ID : 39 Link Name : EPOCH_BP_LINK Dest Node : 19 Value Set : 0.49321 0 0 
+Out Link ID : 43 Link Name : EPOCH_BP_LINK Dest Node : 20 Value Set : -0.271096 0 0 
+Out Link ID : 47 Link Name : EPOCH_BP_LINK Dest Node : 21 Value Set : -0.24424 0 0 
+Out Link ID : 51 Link Name : EPOCH_BP_LINK Dest Node : 22 Value Set : -0.295755 0 0 
+
+Node ID : 15     Node Name: Input Node
+Value Set : 0 
+Error Set: 0 
+Out Link ID : 36 Link Name : EPOCH_BP_LINK Dest Node : 18 Value Set : 0.617481 0 0 
+Out Link ID : 40 Link Name : EPOCH_BP_LINK Dest Node : 19 Value Set : 0.717887 0 0 
+Out Link ID : 44 Link Name : EPOCH_BP_LINK Dest Node : 20 Value Set : -0.668203 0 0 
+Out Link ID : 48 Link Name : EPOCH_BP_LINK Dest Node : 21 Value Set : 0.142369 0 0 
+Out Link ID : 52 Link Name : EPOCH_BP_LINK Dest Node : 22 Value Set : 0.215369 0 0 
+
+Node ID : 16     Node Name: Input Node
+Value Set : 0 
+Error Set: 0 
+Out Link ID : 37 Link Name : EPOCH_BP_LINK Dest Node : 18 Value Set : -0.0402539 0 0 
+Out Link ID : 41 Link Name : EPOCH_BP_LINK Dest Node : 19 Value Set : 0.0270699 0 0 
+Out Link ID : 45 Link Name : EPOCH_BP_LINK Dest Node : 20 Value Set : -0.108615 0 0 
+Out Link ID : 49 Link Name : EPOCH_BP_LINK Dest Node : 21 Value Set : 0.214331 0 0 
+Out Link ID : 53 Link Name : EPOCH_BP_LINK Dest Node : 22 Value Set : 0.605213 0 0 
+
+Node ID : 17     Node Name: Input Node
+Value Set : 0 
+Error Set: 0 
+Out Link ID : 38 Link Name : EPOCH_BP_LINK Dest Node : 18 Value Set : 0.791925 0 0 
+Out Link ID : 42 Link Name : EPOCH_BP_LINK Dest Node : 19 Value Set : -0.970031 0 0 
+Out Link ID : 46 Link Name : EPOCH_BP_LINK Dest Node : 20 Value Set : -0.990661 0 0 
+Out Link ID : 50 Link Name : EPOCH_BP_LINK Dest Node : 21 Value Set : 0.32609 0 0 
+Out Link ID : 54 Link Name : EPOCH_BP_LINK Dest Node : 22 Value Set : -0.3961 0 0 
+
+Node ID : 18     Node Name:  BP_HIDDEN_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 35 Link Name : EPOCH_BP_LINK Source Node : 14 Value Set : 0.127171 0 0 
+In Link ID : 36 Link Name : EPOCH_BP_LINK Source Node : 15 Value Set : 0.617481 0 0 
+In Link ID : 37 Link Name : EPOCH_BP_LINK Source Node : 16 Value Set : -0.0402539 0 0 
+In Link ID : 38 Link Name : EPOCH_BP_LINK Source Node : 17 Value Set : 0.791925 0 0 
+Out Link ID : 55 Link Name : EPOCH_BP_LINK Dest Node : 23 Value Set : 0.453352 0 0 
+Out Link ID : 60 Link Name : EPOCH_BP_LINK Dest Node : 24 Value Set : 0.687307 0 0 
+Out Link ID : 65 Link Name : EPOCH_BP_LINK Dest Node : 25 Value Set : -0.814753 0 0 
+
+Node ID : 19     Node Name:  BP_HIDDEN_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 39 Link Name : EPOCH_BP_LINK Source Node : 14 Value Set : 0.49321 0 0 
+In Link ID : 40 Link Name : EPOCH_BP_LINK Source Node : 15 Value Set : 0.717887 0 0 
+In Link ID : 41 Link Name : EPOCH_BP_LINK Source Node : 16 Value Set : 0.0270699 0 0 
+In Link ID : 42 Link Name : EPOCH_BP_LINK Source Node : 17 Value Set : -0.970031 0 0 
+Out Link ID : 56 Link Name : EPOCH_BP_LINK Dest Node : 23 Value Set : 0.851436 0 0 
+Out Link ID : 61 Link Name : EPOCH_BP_LINK Dest Node : 24 Value Set : 0.99939 0 0 
+Out Link ID : 66 Link Name : EPOCH_BP_LINK Dest Node : 25 Value Set : -0.88757 0 0 
+
+Node ID : 20     Node Name:  BP_HIDDEN_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 43 Link Name : EPOCH_BP_LINK Source Node : 14 Value Set : -0.271096 0 0 
+In Link ID : 44 Link Name : EPOCH_BP_LINK Source Node : 15 Value Set : -0.668203 0 0 
+In Link ID : 45 Link Name : EPOCH_BP_LINK Source Node : 16 Value Set : -0.108615 0 0 
+In Link ID : 46 Link Name : EPOCH_BP_LINK Source Node : 17 Value Set : -0.990661 0 0 
+Out Link ID : 57 Link Name : EPOCH_BP_LINK Dest Node : 23 Value Set : -0.715323 0 0 
+Out Link ID : 62 Link Name : EPOCH_BP_LINK Dest Node : 24 Value Set : -0.215125 0 0 
+Out Link ID : 67 Link Name : EPOCH_BP_LINK Dest Node : 25 Value Set : 0.83758 0 0 
+
+Node ID : 21     Node Name:  BP_HIDDEN_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 47 Link Name : EPOCH_BP_LINK Source Node : 14 Value Set : -0.24424 0 0 
+In Link ID : 48 Link Name : EPOCH_BP_LINK Source Node : 15 Value Set : 0.142369 0 0 
+In Link ID : 49 Link Name : EPOCH_BP_LINK Source Node : 16 Value Set : 0.214331 0 0 
+In Link ID : 50 Link Name : EPOCH_BP_LINK Source Node : 17 Value Set : 0.32609 0 0 
+Out Link ID : 58 Link Name : EPOCH_BP_LINK Dest Node : 23 Value Set : -0.529344 0 0 
+Out Link ID : 63 Link Name : EPOCH_BP_LINK Dest Node : 24 Value Set : -0.405438 0 0 
+Out Link ID : 68 Link Name : EPOCH_BP_LINK Dest Node : 25 Value Set : -0.454207 0 0 
+
+Node ID : 22     Node Name:  BP_HIDDEN_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 51 Link Name : EPOCH_BP_LINK Source Node : 14 Value Set : -0.295755 0 0 
+In Link ID : 52 Link Name : EPOCH_BP_LINK Source Node : 15 Value Set : 0.215369 0 0 
+In Link ID : 53 Link Name : EPOCH_BP_LINK Source Node : 16 Value Set : 0.605213 0 0 
+In Link ID : 54 Link Name : EPOCH_BP_LINK Source Node : 17 Value Set : -0.3961 0 0 
+Out Link ID : 59 Link Name : EPOCH_BP_LINK Dest Node : 23 Value Set : -0.580798 0 0 
+Out Link ID : 64 Link Name : EPOCH_BP_LINK Dest Node : 24 Value Set : -0.952513 0 0 
+Out Link ID : 69 Link Name : EPOCH_BP_LINK Dest Node : 25 Value Set : 0.382366 0 0 
+
+Node ID : 23     Node Name: BP_OUTPUT_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 55 Link Name : EPOCH_BP_LINK Source Node : 18 Value Set : 0.453352 0 0 
+In Link ID : 56 Link Name : EPOCH_BP_LINK Source Node : 19 Value Set : 0.851436 0 0 
+In Link ID : 57 Link Name : EPOCH_BP_LINK Source Node : 20 Value Set : -0.715323 0 0 
+In Link ID : 58 Link Name : EPOCH_BP_LINK Source Node : 21 Value Set : -0.529344 0 0 
+In Link ID : 59 Link Name : EPOCH_BP_LINK Source Node : 22 Value Set : -0.580798 0 0 
+
+Node ID : 24     Node Name: BP_OUTPUT_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 60 Link Name : EPOCH_BP_LINK Source Node : 18 Value Set : 0.687307 0 0 
+In Link ID : 61 Link Name : EPOCH_BP_LINK Source Node : 19 Value Set : 0.99939 0 0 
+In Link ID : 62 Link Name : EPOCH_BP_LINK Source Node : 20 Value Set : -0.215125 0 0 
+In Link ID : 63 Link Name : EPOCH_BP_LINK Source Node : 21 Value Set : -0.405438 0 0 
+In Link ID : 64 Link Name : EPOCH_BP_LINK Source Node : 22 Value Set : -0.952513 0 0 
+
+Node ID : 25     Node Name: BP_OUTPUT_NODE
+Value Set : 0 0.45 0.9 
+Error Set: 0 
+In Link ID : 65 Link Name : EPOCH_BP_LINK Source Node : 18 Value Set : -0.814753 0 0 
+In Link ID : 66 Link Name : EPOCH_BP_LINK Source Node : 19 Value Set : -0.88757 0 0 
+In Link ID : 67 Link Name : EPOCH_BP_LINK Source Node : 20 Value Set : 0.83758 0 0 
+In Link ID : 68 Link Name : EPOCH_BP_LINK Source Node : 21 Value Set : -0.454207 0 0 
+In Link ID : 69 Link Name : EPOCH_BP_LINK Source Node : 22 Value Set : 0.382366 0 0 
+
